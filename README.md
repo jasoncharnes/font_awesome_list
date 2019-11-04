@@ -20,10 +20,16 @@ Or install it yourself as:
 
 ## Usage
 
-Access the list of icons (without the `fa` prefix):
+Access the list of the icon names (without the `fa` prefix):
 
 ```ruby
-FontAwesomeList::Icon.all
+FontAwesomeList::Icon.all #=> returns hash with {name: "...", styles: ["brands", "solid"]}
+```
+
+Access the list of the icon names (without the `fa` prefix):
+
+```ruby
+FontAwesomeList::Icon.names #=> returns array of names
 ```
 
 ## Development
